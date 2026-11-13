@@ -1,0 +1,7 @@
+/extension.crx
+  Content-Type: application/x-chrome-extension
+  Access-Control-Allow-Origin: *
+
+/update.xml
+  Content-Type: application/xml
+  Access-Control-Allow-Origin: *

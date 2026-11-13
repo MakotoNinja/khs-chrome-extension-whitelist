@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Kealakehe High - Student Domain Whitelister",
+  "version": "1.0.3",
+	"update_url": "https://elegant-cobbler-92b1b3.netlify.app/update.xml",
+  "description": "Enforces user-specific domain whitelisting on managed Chromebooks.",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "identity",
+		"identity.email",
+    "storage",
+		"alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+	"web_accessible_resources": [
+    {
+      "resources": ["blocked.js", "blocked.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png",
+		"48": "icon48.png",
+		"16": "icon16.png"
+  }
+}

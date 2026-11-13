@@ -1,0 +1,5 @@
+Extension ID: kcafjbecimoheboaemiegicniiknangd
+
+Apps Script ID(GetWhitelistData): AKfycbx1J_eqFZvUcCYBemVYJXrQ_M8SzwpFvm8Ey9_4AFle8AWtRpT03LMh3F83JoAVuXNU
+
+App Sheet ID: 6b510444-2703-4563-8512-d5b76ea05c1e
